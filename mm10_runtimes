@@ -1,0 +1,732 @@
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Byte Order:                           Little Endian
+Address sizes:                        46 bits physical, 48 bits virtual
+CPU(s):                               20
+On-line CPU(s) list:                  0-19
+Thread(s) per core:                   2
+Core(s) per socket:                   10
+Socket(s):                            1
+NUMA node(s):                         1
+Vendor ID:                            GenuineIntel
+CPU family:                           6
+Model:                                85
+Model name:                           Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
+Stepping:                             7
+CPU MHz:                              1200.000
+CPU max MHz:                          4700.0000
+CPU min MHz:                          1200.0000
+BogoMIPS:                             7399.70
+Virtualization:                       VT-x
+L1d cache:                            320 KiB
+L1i cache:                            320 KiB
+L2 cache:                             10 MiB
+L3 cache:                             19.3 MiB
+NUMA node0 CPU(s):                    0-19
+Vulnerability Gather data sampling:   Mitigation; Microcode
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Mitigation; TSX disabled
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_
+                                      timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsave
+                                      s cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts avx512_vnni md_clear flush_l1d arch_capabilities
+
+ls | parallel ./z-nome_hunt_patch 12 6 12 {}
+
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_GL456213_random
+start site 0
+calculating zscore
+opening chr1_GL456213_random
+inputting sequence
+opening chr1_GL456213_random.Z-SCORE.bedgraph
+
+ run time=4 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_GL456216_random
+start site 0
+calculating zscore
+opening chr4_GL456216_random
+inputting sequence
+opening chr4_GL456216_random.Z-SCORE.bedgraph
+
+ run time=7 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_JH584292_random
+start site 0
+calculating zscore
+opening chr4_JH584292_random
+inputting sequence
+opening chr4_JH584292_random.Z-SCORE.bedgraph
+
+ run time=1 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_GL456212_random
+start site 0
+calculating zscore
+opening chr1_GL456212_random
+inputting sequence
+opening chr1_GL456212_random.Z-SCORE.bedgraph
+
+ run time=16 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_GL456210_random
+start site 0
+calculating zscore
+opening chr1_GL456210_random
+inputting sequence
+opening chr1_GL456210_random.Z-SCORE.bedgraph
+
+ run time=18 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_JH584295_random
+start site 0
+calculating zscore
+opening chr4_JH584295_random
+inputting sequence
+opening chr4_JH584295_random.Z-SCORE.bedgraph
+
+ run time=0 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_GL456221_random
+start site 0
+calculating zscore
+opening chr1_GL456221_random
+inputting sequence
+opening chr1_GL456221_random.Z-SCORE.bedgraph
+
+ run time=22 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_GL456211_random
+start site 0
+calculating zscore
+opening chr1_GL456211_random
+inputting sequence
+opening chr1_GL456211_random.Z-SCORE.bedgraph
+
+ run time=26 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_GL456350_random
+start site 0
+calculating zscore
+opening chr4_GL456350_random
+inputting sequence
+opening chr4_GL456350_random.Z-SCORE.bedgraph
+
+ run time=24 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_JH584293_random
+start site 0
+calculating zscore
+opening chr4_JH584293_random
+inputting sequence
+opening chr4_JH584293_random.Z-SCORE.bedgraph
+
+ run time=22 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_JH584294_random
+start site 0
+calculating zscore
+opening chr4_JH584294_random
+inputting sequence
+opening chr4_JH584294_random.Z-SCORE.bedgraph
+
+ run time=20 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_GL456354_random
+start site 0
+calculating zscore
+opening chr5_GL456354_random
+inputting sequence
+opening chr5_GL456354_random.Z-SCORE.bedgraph
+
+ run time=21 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_JH584296_random
+start site 0
+calculating zscore
+opening chr5_JH584296_random
+inputting sequence
+opening chr5_JH584296_random.Z-SCORE.bedgraph
+
+ run time=21 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_JH584297_random
+start site 0
+calculating zscore
+opening chr5_JH584297_random
+inputting sequence
+opening chr5_JH584297_random.Z-SCORE.bedgraph
+
+ run time=22 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_JH584298_random
+start site 0
+calculating zscore
+opening chr5_JH584298_random
+inputting sequence
+opening chr5_JH584298_random.Z-SCORE.bedgraph
+
+ run time=21 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr7_GL456219_random
+start site 0
+calculating zscore
+opening chr7_GL456219_random
+inputting sequence
+opening chr7_GL456219_random.Z-SCORE.bedgraph
+
+ run time=19 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_JH584299_random
+start site 0
+calculating zscore
+opening chr5_JH584299_random
+inputting sequence
+opening chr5_JH584299_random.Z-SCORE.bedgraph
+
+ run time=102 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrM
+start site 0
+calculating zscore
+opening chrM
+inputting sequence
+opening chrM.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456239
+start site 0
+calculating zscore
+opening chrUn_GL456239
+inputting sequence
+opening chrUn_GL456239.Z-SCORE.bedgraph
+
+ run time=4 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456359
+start site 0
+calculating zscore
+opening chrUn_GL456359
+inputting sequence
+opening chrUn_GL456359.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456360
+start site 0
+calculating zscore
+opening chrUn_GL456360
+inputting sequence
+opening chrUn_GL456360.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456366
+start site 0
+calculating zscore
+opening chrUn_GL456366
+inputting sequence
+opening chrUn_GL456366.Z-SCORE.bedgraph
+
+ run time=5 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456367
+start site 0
+calculating zscore
+opening chrUn_GL456367
+inputting sequence
+opening chrUn_GL456367.Z-SCORE.bedgraph
+
+ run time=5 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456368
+start site 0
+calculating zscore
+opening chrUn_GL456368
+inputting sequence
+opening chrUn_GL456368.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456370
+start site 0
+calculating zscore
+opening chrUn_GL456370
+inputting sequence
+opening chrUn_GL456370.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456372
+start site 0
+calculating zscore
+opening chrUn_GL456372
+inputting sequence
+opening chrUn_GL456372.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456378
+start site 0
+calculating zscore
+opening chrUn_GL456378
+inputting sequence
+opening chrUn_GL456378.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456379
+start site 0
+calculating zscore
+opening chrUn_GL456379
+inputting sequence
+opening chrUn_GL456379.Z-SCORE.bedgraph
+
+ run time=8 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456381
+start site 0
+calculating zscore
+opening chrUn_GL456381
+inputting sequence
+opening chrUn_GL456381.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456382
+start site 0
+calculating zscore
+opening chrUn_GL456382
+inputting sequence
+opening chrUn_GL456382.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456383
+start site 0
+calculating zscore
+opening chrUn_GL456383
+inputting sequence
+opening chrUn_GL456383.Z-SCORE.bedgraph
+
+ run time=4 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456385
+start site 0
+calculating zscore
+opening chrUn_GL456385
+inputting sequence
+opening chrUn_GL456385.Z-SCORE.bedgraph
+
+ run time=4 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456387
+start site 0
+calculating zscore
+opening chrUn_GL456387
+inputting sequence
+opening chrUn_GL456387.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456389
+start site 0
+calculating zscore
+opening chrUn_GL456389
+inputting sequence
+opening chrUn_GL456389.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456390
+start site 0
+calculating zscore
+opening chrUn_GL456390
+inputting sequence
+opening chrUn_GL456390.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456392
+start site 0
+calculating zscore
+opening chrUn_GL456392
+inputting sequence
+opening chrUn_GL456392.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456393
+start site 0
+calculating zscore
+opening chrUn_GL456393
+inputting sequence
+opening chrUn_GL456393.Z-SCORE.bedgraph
+
+ run time=6 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456394
+start site 0
+calculating zscore
+opening chrUn_GL456394
+inputting sequence
+opening chrUn_GL456394.Z-SCORE.bedgraph
+
+ run time=3 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_GL456396
+start site 0
+calculating zscore
+opening chrUn_GL456396
+inputting sequence
+opening chrUn_GL456396.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrUn_JH584304
+start site 0
+calculating zscore
+opening chrUn_JH584304
+inputting sequence
+opening chrUn_JH584304.Z-SCORE.bedgraph
+
+ run time=13 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr19
+start site 0
+calculating zscore
+opening chr19
+inputting sequence
+opening chr19.Z-SCORE.bedgraph
+
+ run time=6466 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrX_GL456233_random
+start site 0
+calculating zscore
+opening chrX_GL456233_random
+inputting sequence
+opening chrX_GL456233_random.Z-SCORE.bedgraph
+
+ run time=36 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr18
+start site 0
+calculating zscore
+opening chr18
+inputting sequence
+opening chr18.Z-SCORE.bedgraph
+
+ run time=9573 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY_JH584300_random
+start site 0
+calculating zscore
+opening chrY_JH584300_random
+inputting sequence
+opening chrY_JH584300_random.Z-SCORE.bedgraph
+
+ run time=20 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY_JH584301_random
+start site 0
+calculating zscore
+opening chrY_JH584301_random
+inputting sequence
+opening chrY_JH584301_random.Z-SCORE.bedgraph
+
+ run time=27 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY_JH584302_random
+start site 0
+calculating zscore
+opening chrY_JH584302_random
+inputting sequence
+opening chrY_JH584302_random.Z-SCORE.bedgraph
+
+ run time=17 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY_JH584303_random
+start site 0
+calculating zscore
+opening chrY_JH584303_random
+inputting sequence
+opening chrY_JH584303_random.Z-SCORE.bedgraph
+
+ run time=16 sec
+dinucleotides 12
+min/max 6 12
+chromosome name z-nome_hunt_patch
+start site 0
+calculating zscore
+opening z-nome_hunt_patch
+inputting sequence
+Error: Invalid character 'E' in input string. Character number = '0'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name z-nome_hunt_patch.c
+start site 0
+calculating zscore
+opening z-nome_hunt_patch.c
+inputting sequence
+Error: Invalid character 'Z' in input string. Character number = '0'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name z-nome_hunt_patchO
+start site 0
+calculating zscore
+opening z-nome_hunt_patchO
+inputting sequence
+Error: Invalid character 'E' in input string. Character number = '0'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name chr17
+start site 0
+calculating zscore
+opening chr17
+inputting sequence
+opening chr17.Z-SCORE.bedgraph
+
+ run time=10005 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr16
+start site 0
+calculating zscore
+opening chr16
+inputting sequence
+opening chr16.Z-SCORE.bedgraph
+
+ run time=10326 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr15
+start site 0
+calculating zscore
+opening chr15
+inputting sequence
+opening chr15.Z-SCORE.bedgraph
+
+ run time=10870 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr12
+start site 0
+calculating zscore
+opening chr12
+inputting sequence
+opening chr12.Z-SCORE.bedgraph
+
+ run time=12263 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr13
+start site 0
+calculating zscore
+opening chr13
+inputting sequence
+opening chr13.Z-SCORE.bedgraph
+
+ run time=12313 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr9
+start site 0
+calculating zscore
+opening chr9
+inputting sequence
+opening chr9.Z-SCORE.bedgraph
+
+ run time=12501 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr14
+start site 0
+calculating zscore
+opening chr14
+inputting sequence
+opening chr14.Z-SCORE.bedgraph
+
+ run time=12586 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr11
+start site 0
+calculating zscore
+opening chr11
+inputting sequence
+opening chr11.Z-SCORE.bedgraph
+
+ run time=12602 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr8
+start site 0
+calculating zscore
+opening chr8
+inputting sequence
+opening chr8.Z-SCORE.bedgraph
+
+ run time=12853 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr10
+start site 0
+calculating zscore
+opening chr10
+inputting sequence
+opening chr10.Z-SCORE.bedgraph
+
+ run time=12972 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr7
+start site 0
+calculating zscore
+opening chr7
+inputting sequence
+opening chr7.Z-SCORE.bedgraph
+
+ run time=13730 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr6
+start site 0
+calculating zscore
+opening chr6
+inputting sequence
+opening chr6.Z-SCORE.bedgraph
+
+ run time=13991 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY
+start site 0
+calculating zscore
+opening chrY
+inputting sequence
+opening chrY.Z-SCORE.bedgraph
+
+ run time=7685 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5
+start site 0
+calculating zscore
+opening chr5
+inputting sequence
+opening chr5.Z-SCORE.bedgraph
+
+ run time=14205 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4
+start site 0
+calculating zscore
+opening chr4
+inputting sequence
+opening chr4.Z-SCORE.bedgraph
+
+ run time=14259 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr3
+start site 0
+calculating zscore
+opening chr3
+inputting sequence
+opening chr3.Z-SCORE.bedgraph
+
+ run time=14530 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrX
+start site 0
+calculating zscore
+opening chrX
+inputting sequence
+opening chrX.Z-SCORE.bedgraph
+
+ run time=15101 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr2
+start site 0
+calculating zscore
+opening chr2
+inputting sequence
+opening chr2.Z-SCORE.bedgraph
+
+ run time=15677 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1
+start site 0
+calculating zscore
+opening chr1
+inputting sequence
+opening chr1.Z-SCORE.bedgraph
+
+ run time=16390 sec
