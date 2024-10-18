@@ -4,10 +4,11 @@
 This github respository contains source code and a binary for a modernized version of the algorithim Z-Hunt, now able to perform analysis of large genomic files in a user-friendly manner. It returns a "Z-Score" (not related to the common statistical Z-Score) for each nucleotide in a given sequence to rate its propensity to convert to Z-Form, which is then paired with the location of the nucleotide in the genome and outputted as a BedGraph. 
 Z-NOME_HUNT runs as a command line interface tool. It takes four necessary arguments:
 
-`window_size` : The size of the analysis window after a nucleotide. Larger values will take longer to run.
-`min`: Minimum window size acceptable for a Z-forming region.
+`window_size` : The size of the analysis window after a nucleotide. Larger values will take longer to run. Set this at 12.
 
-`max`: The maximum acceptable size for a z forming region. Larger deltas between minimum and maximum will increase the runtime.
+`min`: Minimum window size acceptable for a Z-forming region. Set this at 6.
+
+`max`: The maximum acceptable size for a z forming region. Larger deltas between minimum and maximum will increase the runtime. Set this at 12.
 
 `file-name`: Your file of interest. See formatting notes.
 
