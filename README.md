@@ -11,10 +11,14 @@ and two optional arguments:
 `chromosome_name`: The chromosome number or name your region of interest comes from.
 `start_site`: The starting point for your sequence.
 
-The original Z-HUNT and MZ-HUNT code that formed the basis for this project can be found here:\n
+The original Z-HUNT and MZ-HUNT code that formed the basis for this project can be found here:
+
 https://github.com/Ho-Lab-Colostate/zhunt/tree/master
+
 Useful background reading can be found here:
+
 https://github.com/Ho-Lab-Colostate/zhunt/tree/master/docs
+
 https://link.springer.com/protocol/10.1007/978-1-0716-3084-6_14
 
 ## Quick start
