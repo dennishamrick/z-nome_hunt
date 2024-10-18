@@ -42,15 +42,15 @@ By default, Z-NOME_HUNT assigns your filename (with .txt, .fa, or .fna extension
 
 
 ## Important formatting notes for input file
-Your input file should 
-### Contain no comments. 
+
+### Your input file should contain no comments. 
 The only information in the file should be its sequence. Downloaded chromosomes will usually have a first line with > then information. You can run
 
 `sed -i '1d' <yourfile>`
 
 in bash to remove this first line.
 
-### Be a .txt, .fa, or .fna file, or have its file extension removed. 
+### Your input file should be a .txt, .fa, or .fna file, or have its file extension removed. 
 Formats besides these extensions or compressed sequence files may not work properly.
 
 
