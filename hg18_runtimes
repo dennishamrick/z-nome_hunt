@@ -1,0 +1,498 @@
+ls | parallel ./z-nome_hunt_patch_clang 12 6 12 {}
+dinucleotides 12
+min/max 6 12
+chromosome name chr16_random
+start site 0
+calculating zscore
+opening chr16_random
+inputting sequence
+Error: Invalid character 'R' in input string. Character number = '102229'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name chr18_random
+start site 0
+calculating zscore
+opening chr18_random
+inputting sequence
+opening chr18_random.Z-SCORE.bedgraph
+
+ run time=1 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr10_random
+start site 0
+calculating zscore
+opening chr10_random
+inputting sequence
+opening chr10_random.Z-SCORE.bedgraph
+
+ run time=13 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr13_random
+start site 0
+calculating zscore
+opening chr13_random
+inputting sequence
+opening chr13_random.Z-SCORE.bedgraph
+
+ run time=21 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr11_random
+start site 0
+calculating zscore
+opening chr11_random
+inputting sequence
+opening chr11_random.Z-SCORE.bedgraph
+
+ run time=23 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr19_random
+start site 0
+calculating zscore
+opening chr19_random
+inputting sequence
+opening chr19_random.Z-SCORE.bedgraph
+
+ run time=33 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr22_h2_hap1
+start site 0
+calculating zscore
+opening chr22_h2_hap1
+inputting sequence
+opening chr22_h2_hap1.Z-SCORE.bedgraph
+
+ run time=7 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr22_random
+start site 0
+calculating zscore
+opening chr22_random
+inputting sequence
+opening chr22_random.Z-SCORE.bedgraph
+
+ run time=28 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr15_random
+start site 0
+calculating zscore
+opening chr15_random
+inputting sequence
+opening chr15_random.Z-SCORE.bedgraph
+
+ run time=85 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr3
+start site 0
+calculating zscore
+opening chr3
+inputting sequence
+Error: Invalid character 'M' in input string. Character number = '60805573'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name chr2_random
+start site 0
+calculating zscore
+opening chr2_random
+inputting sequence
+opening chr2_random.Z-SCORE.bedgraph
+
+ run time=21 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr3_random
+start site 0
+calculating zscore
+opening chr3_random
+inputting sequence
+opening chr3_random.Z-SCORE.bedgraph
+
+ run time=82 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1_random
+start site 0
+calculating zscore
+opening chr1_random
+inputting sequence
+opening chr1_random.Z-SCORE.bedgraph
+
+ run time=180 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr21_random
+start site 0
+calculating zscore
+opening chr21_random
+inputting sequence
+opening chr21_random.Z-SCORE.bedgraph
+
+ run time=181 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4_random
+start site 0
+calculating zscore
+opening chr4_random
+inputting sequence
+opening chr4_random.Z-SCORE.bedgraph
+
+ run time=91 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_random
+start site 0
+calculating zscore
+opening chr5_random
+inputting sequence
+opening chr5_random.Z-SCORE.bedgraph
+
+ run time=16 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr17_random
+start site 0
+calculating zscore
+opening chr17_random
+inputting sequence
+opening chr17_random.Z-SCORE.bedgraph
+
+ run time=281 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5_h2_hap1
+start site 0
+calculating zscore
+opening chr5_h2_hap1
+inputting sequence
+opening chr5_h2_hap1.Z-SCORE.bedgraph
+
+ run time=201 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr6_cox_hap1
+start site 0
+calculating zscore
+opening chr6_cox_hap1
+inputting sequence
+opening chr6_cox_hap1.Z-SCORE.bedgraph
+
+ run time=530 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr6_qbl_hap2
+start site 0
+calculating zscore
+opening chr6_qbl_hap2
+inputting sequence
+opening chr6_qbl_hap2.Z-SCORE.bedgraph
+
+ run time=507 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr6_random
+start site 0
+calculating zscore
+opening chr6_random
+inputting sequence
+opening chr6_random.Z-SCORE.bedgraph
+
+ run time=208 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr7_random
+start site 0
+calculating zscore
+opening chr7_random
+inputting sequence
+opening chr7_random.Z-SCORE.bedgraph
+
+ run time=61 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr21
+start site 0
+calculating zscore
+opening chr21
+inputting sequence
+opening chr21.Z-SCORE.bedgraph
+
+ run time=5071 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr8_random
+start site 0
+calculating zscore
+opening chr8_random
+inputting sequence
+opening chr8_random.Z-SCORE.bedgraph
+
+ run time=100 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr22
+start site 0
+calculating zscore
+opening chr22
+inputting sequence
+opening chr22.Z-SCORE.bedgraph
+
+ run time=5351 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr9_random
+start site 0
+calculating zscore
+opening chr9_random
+inputting sequence
+opening chr9_random.Z-SCORE.bedgraph
+
+ run time=127 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrM
+start site 0
+calculating zscore
+opening chrM
+inputting sequence
+opening chrM.Z-SCORE.bedgraph
+
+ run time=2 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr20
+start site 0
+calculating zscore
+opening chr20
+inputting sequence
+opening chr20.Z-SCORE.bedgraph
+
+ run time=7027 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr19
+start site 0
+calculating zscore
+opening chr19
+inputting sequence
+opening chr19.Z-SCORE.bedgraph
+
+ run time=7143 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrX_random
+start site 0
+calculating zscore
+opening chrX_random
+inputting sequence
+opening chrX_random.Z-SCORE.bedgraph
+
+ run time=192 sec
+dinucleotides 12
+min/max 6 12
+chromosome name z-nome_hunt_patch_clang
+start site 0
+calculating zscore
+opening z-nome_hunt_patch_clang
+inputting sequence
+Error: Invalid character 'E' in input string. Character number = '0'
+Allowed characters = atgcnATGCN. Exiting. 
+dinucleotides 12
+min/max 6 12
+chromosome name chr18
+start site 0
+calculating zscore
+opening chr18
+inputting sequence
+opening chr18.Z-SCORE.bedgraph
+
+ run time=8495 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr17
+start site 0
+calculating zscore
+opening chr17
+inputting sequence
+opening chr17.Z-SCORE.bedgraph
+
+ run time=8881 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr16
+start site 0
+calculating zscore
+opening chr16
+inputting sequence
+opening chr16.Z-SCORE.bedgraph
+
+ run time=9698 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr15
+start site 0
+calculating zscore
+opening chr15
+inputting sequence
+opening chr15.Z-SCORE.bedgraph
+
+ run time=10514 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr14
+start site 0
+calculating zscore
+opening chr14
+inputting sequence
+opening chr14.Z-SCORE.bedgraph
+
+ run time=11092 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr13
+start site 0
+calculating zscore
+opening chr13
+inputting sequence
+opening chr13.Z-SCORE.bedgraph
+
+ run time=11638 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrY
+start site 0
+calculating zscore
+opening chrY
+inputting sequence
+opening chrY.Z-SCORE.bedgraph
+
+ run time=4878 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr12
+start site 0
+calculating zscore
+opening chr12
+inputting sequence
+opening chr12.Z-SCORE.bedgraph
+
+ run time=13050 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr11
+start site 0
+calculating zscore
+opening chr11
+inputting sequence
+opening chr11.Z-SCORE.bedgraph
+
+ run time=13299 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr10
+start site 0
+calculating zscore
+opening chr10
+inputting sequence
+opening chr10.Z-SCORE.bedgraph
+
+ run time=13335 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr8
+start site 0
+calculating zscore
+opening chr8
+inputting sequence
+opening chr8.Z-SCORE.bedgraph
+
+ run time=13429 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr7
+start site 0
+calculating zscore
+opening chr7
+inputting sequence
+opening chr7.Z-SCORE.bedgraph
+
+ run time=14124 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr6
+start site 0
+calculating zscore
+opening chr6
+inputting sequence
+opening chr6.Z-SCORE.bedgraph
+
+ run time=15309 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr9
+start site 0
+calculating zscore
+opening chr9
+inputting sequence
+opening chr9.Z-SCORE.bedgraph
+
+ run time=10825 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr5
+start site 0
+calculating zscore
+opening chr5
+inputting sequence
+opening chr5.Z-SCORE.bedgraph
+
+ run time=15851 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr4
+start site 0
+calculating zscore
+opening chr4
+inputting sequence
+opening chr4.Z-SCORE.bedgraph
+
+ run time=16741 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chrX
+start site 0
+calculating zscore
+opening chrX
+inputting sequence
+opening chrX.Z-SCORE.bedgraph
+
+ run time=11674 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr2
+start site 0
+calculating zscore
+opening chr2
+inputting sequence
+opening chr2.Z-SCORE.bedgraph
+
+ run time=19242 sec
+dinucleotides 12
+min/max 6 12
+chromosome name chr1
+start site 0
+calculating zscore
+opening chr1
+inputting sequence
+opening chr1.Z-SCORE.bedgraph
+
+ run time=19339 sec
