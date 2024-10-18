@@ -22,7 +22,7 @@ The EMBO Journal, Vol.5, No.10, pp2737-2744, 1986
 With 0.22 kcal/mol/dinuc for mCG (Zacharias et al, Biochemistry, 1988, 2970)
 */
 
-/*ZNOME-HUNT, October 11 2024
+/*Z-NOME-HUNT, October 11 2024
  */
 /*
 Edited by Dennis Hamrick based off of https://github.com/Ho-Lab-Colostate/zhunt/tree/master/src
