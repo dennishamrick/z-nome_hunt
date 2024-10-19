@@ -69,3 +69,7 @@ Useful background reading can be found here:
 https://github.com/Ho-Lab-Colostate/zhunt/tree/master/docs
 
 https://link.springer.com/protocol/10.1007/978-1-0716-3084-6_14
+
+## License
+
+This work is licensed under the MIT License. Full license information is available in LICENSE.md.
