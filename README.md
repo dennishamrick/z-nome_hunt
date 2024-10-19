@@ -2,6 +2,9 @@
 
 ## What is this?
 This github respository contains source code and a binary for a modernized version of the algorithim Z-Hunt, now able to perform analysis of large genomic files in a user-friendly manner. It returns a "Z-Score" (not related to the common statistical Z-Score) for each nucleotide in a given sequence to rate its propensity to convert to Z-Form, which is then paired with the location of the nucleotide in the genome and outputted as a BedGraph. 
+
+## How to use Z-NOME_HUNT
+
 Z-NOME_HUNT runs as a command line interface tool. It takes four necessary arguments:
 
 `window_size` : The size of the analysis window after a nucleotide. Larger values will take longer to run. Set this at 12.
@@ -18,19 +21,10 @@ and two optional arguments:
 
 `start_site`: The starting point for your sequence.
 
-The original Z-HUNT and MZ-HUNT code that formed the basis for this project can be found here:
-
-https://github.com/Ho-Lab-Colostate/zhunt/tree/master
-
-Useful background reading can be found here:
-
-https://github.com/Ho-Lab-Colostate/zhunt/tree/master/docs
-
-https://link.springer.com/protocol/10.1007/978-1-0716-3084-6_14
 
 ## Quick start
-Download z-nome_hunt.c in zhunt_genome/source, then (if using gcc):
-`gcc -o z-nome_hunt z-nome_hunt.c -lm`
+
+You can download an executable binary for your OS from the `bin` folder. 
 
 then
 `./z-nome_hunt 12 6 12 <your_file>`
@@ -40,6 +34,13 @@ A new file will be created, <yourfile>.Z-SCORE.bedgraph. This can then be conver
 By default, Z-NOME_HUNT assigns your filename (with .txt, .fa, or .fna extension removed) as the chromosome name in the output bedgraph file, and initializes start site as 0. If you want to run the algorithm with a different start site, use
 
 `./z-nome_hunt 12 6 12 <your_file> <chromosome_name> <start_site>`
+
+# Compiling from source
+
+Download z-nome_hunt.c in zhunt_genome/source, then (if using gcc):
+
+`gcc -o z-nome_hunt z-nome_hunt.c -lm`
+
 
 
 ## Important formatting notes for input file
@@ -56,3 +57,15 @@ Formats besides these extensions or compressed sequence files may not work prope
 
 
 'N's in the genome and bases neighboring 'N's are assigned an arbitrary very low Z-Score. Z-scores for bases within 6-12 bases of an 'N' are therefore not trustworthy and should be ignored.
+
+##Citations
+
+The original Z-HUNT and MZ-HUNT code that formed the basis for this project can be found here:
+
+https://github.com/Ho-Lab-Colostate/zhunt/tree/master
+
+Useful background reading can be found here:
+
+https://github.com/Ho-Lab-Colostate/zhunt/tree/master/docs
+
+https://link.springer.com/protocol/10.1007/978-1-0716-3084-6_14
