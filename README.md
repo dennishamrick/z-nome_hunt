@@ -35,7 +35,7 @@ By default, Z-NOME_HUNT assigns your filename (with .txt, .fa, or .fna extension
 
 `./z-nome_hunt 12 6 12 <your_file> <chromosome_name> <start_site>`
 
-# Compiling from source
+### Compiling from source
 
 Download z-nome_hunt.c in zhunt_genome/source, then (if using gcc):
 
@@ -58,7 +58,7 @@ Formats besides these extensions or compressed sequence files may not work prope
 
 'N's in the genome and bases neighboring 'N's are assigned an arbitrary very low Z-Score. Z-scores for bases within 6-12 bases of an 'N' are therefore not trustworthy and should be ignored.
 
-##Citations
+## Citations
 
 The original Z-HUNT and MZ-HUNT code that formed the basis for this project can be found here:
 
