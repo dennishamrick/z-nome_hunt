@@ -1,7 +1,7 @@
 # Z-NOME_HUNT
 
 ## What is this?
-This github respository contains source code and a binary for a modernized version of the algorithim Z-Hunt, now able to perform analysis of large genomic files in a user-friendly manner. It returns a "Z-Score" (not related to the common statistical Z-Score) for each nucleotide in a given sequence to rate its propensity to convert to Z-Form, which is then paired with the location of the nucleotide in the genome and outputted as a BedGraph. 
+This github respository contains source code and a binary for a modernized version of the algorithim Z-Hunt, now able to perform analysis of large genomic files in a user-friendly manner. It returns a "Z-Score" (not related to the common statistical Z-Score) for each nucleotide in a given sequence to rate the propensity of the 6-12 following nucleotides to convert to Z-Form, which is then paired with the location of the nucleotide in the genome and outputted as a BedGraph. 
 
 ## How to use Z-NOME_HUNT
 
