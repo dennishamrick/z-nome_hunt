@@ -1,0 +1,13 @@
+name: z-nome_hunt
+title: z-nome_hunt
+username: dennis-hamrick
+account: dennis-hamrick
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13088706
+bundleId: 9253361
+url: https://dennis-hamrick.shinyapps.io/z-nome_hunt/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: example_input0.fasta|randomdna.fna|randomdna.fna.Z-SCORE.bedgraph

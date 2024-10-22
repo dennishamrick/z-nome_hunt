@@ -524,33 +524,7 @@ int main(int argc, char *argv[])
     char *extensions[] = {".fasta",".txt", ".fna", ".fa"};
     int num_extensions = sizeof(extensions) / sizeof(extensions[0]);
     char *exch = NULL;
-    if (argc == 5)
-    {
-        fn = malloc(strlen(argv[4]) + 1);
-        strcpy(fn, argv[4]);
-        printf("%s\n", fn);
-        for (int i = 0; i < num_extensions; i++)
-        {
-            exch = strstr(fn, extensions[i]);
-            if (exch)
-            {
-                *exch = '\0';
-                puts(fn);
-                break;
-            }
-        }
-        chrom = malloc(strlen(fn) + 1);
-        strcpy(chrom, fn);
-        free(fn);
-        startsite = 0;
-    }
-    else if (argc == 6)
-    {
-        chrom = malloc(strlen(argv[5]) + 1);
-        strcpy(chrom, argv[5]);
-        startsite = 0;
-    }
-    else if (argc == 7)
+     if (argc == 7)
     {
         chrom = malloc(strlen(argv[5]) + 1);
         strcpy(chrom, argv[5]);
