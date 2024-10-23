@@ -5,7 +5,7 @@ account: dennis-hamrick
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13088706
-bundleId: 9253361
+bundleId: 9257359
 url: https://dennis-hamrick.shinyapps.io/z-nome_hunt/
 version: 1
 asMultiple: FALSE

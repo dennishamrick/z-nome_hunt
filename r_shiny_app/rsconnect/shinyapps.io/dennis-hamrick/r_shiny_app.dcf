@@ -1,10 +1,13 @@
 name: r_shiny_app
-title:
+title: r_shiny_app
 username: dennis-hamrick
 account: dennis-hamrick
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13069463
-bundleId: 9245479
+bundleId: 9257343
 url: https://dennis-hamrick.shinyapps.io/r_shiny_app/
 version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: example_input0.fasta|randomdna.fna|randomdna.fna.Z-SCORE.bedgraph

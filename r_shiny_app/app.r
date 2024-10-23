@@ -6,9 +6,9 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       fileInput("file", "Upload FASTA or TXT File", accept = c(".fasta", ".fa",".fna",".txt")),
-      sliderInput("windowSize", "Window Size:", min = 1, max = 12, value = 6),
-      sliderInput("minWindow", "Minimum Window:", min = 1, max = 12, value = 3),
-      sliderInput("maxWindow", "Maximum Window:", min = 1, max = 12, value = 9),
+      sliderInput("windowSize", "Window Size:", min = 1, max = 12, value = 12),
+      sliderInput("minWindow", "Minimum Window:", min = 1, max = 12, value = 6),
+      sliderInput("maxWindow", "Maximum Window:", min = 1, max = 12, value = 12),
       textInput("chromosomeName", "Chromosome Name:"),
       textInput("startSite", "Start Site:"),
       actionButton("runButton", "Run Z-Hunt"),
@@ -41,6 +41,8 @@ server <- function(input, output) {
     # Copy the uploaded file to the app's working directory with its original name
     file.copy(input$file$datapath, filename, overwrite = TRUE)
     
+    #set chmod permissions for executable
+    Sys.chmod("zhr", mode = "777")
     # Define the command to run z-hunt using only the filename
     command <- paste(
       "./zhr",
