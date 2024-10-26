@@ -42,7 +42,7 @@ server <- function(input, output) {
     file.copy(input$file$datapath, filename, overwrite = TRUE)
     
     #set chmod permissions for executable
-    Sys.chmod("zhr", mode = "777")
+    Sys.chmod("zhr", mode = "500")
     # Define the command to run z-hunt using only the filename
     command <- paste(
       "./zhr",
