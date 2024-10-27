@@ -5,6 +5,11 @@ This github respository contains source code and a binary for a modernized versi
 
 ## How to use Z-NOME_HUNT
 
+You can access a web interface for the program here:
+http://dennis-hamrick.shinyapps.io/z-nome_hunt
+
+If you are analyzing a large file or many files, it is recommended to use Z-NOME_HUNT locally.
+
 Z-NOME_HUNT runs as a command line interface tool. It takes four necessary arguments:
 
 `window_size` : The size of the analysis window after a nucleotide. Larger values will take longer to run. Set this at 12.
